@@ -1,5 +1,5 @@
 resource "aws_instance" "nat" {
-  ami                         = "ami-0ba1c3ef9156479a2"
+  ami                         = "ami-0ecfb3a630c79bc6e"
   availability_zone           = "ca-central-1a"
   instance_type               = "t2.micro"
   key_name                    = var.aws_key_name
