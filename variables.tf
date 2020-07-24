@@ -8,13 +8,13 @@ variable "aws_key_name" {
 
 variable "aws_region" {
   description = "Región EC2 para la VPC"
-  default     = "ca-central-1"
+  default     = "ca-central-1a"
 }
 
 variable "amis" {
   description = "AMIs por region"
   default = {
-    ca-central-1 = "ami-0c4723ea19b640b3b"
+    ca-central-1a = "ami-0ecfb3a630c79bc6e"
   }
 }
 
